@@ -1,0 +1,5 @@
+services:
+  barbundle.console.command.hi:
+    class: Gurman\BarBundle\Command\BarHiCommand
+    tags:
+      - { name: console.command }
